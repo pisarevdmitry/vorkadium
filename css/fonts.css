@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("../fonts/gothaprolig.woff2") format('woff2'), url("../fonts/gothaprolig.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/gothaprobol.woff2') format('woff2'), url('../fonts/gothaprobol.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/gothaproligita.woff2') format('woff2'), url('../fonts/gothaproligita.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url('../fonts/open-sans-bold.woff2') format('woff2'), url('../fonts/open-sans-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

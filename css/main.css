@@ -1,0 +1,71 @@
+@import "fonts.css";
+@import "layout/intro.css";
+@import "layout/header.css";
+@import "layout/logo.css";
+@import "layout/info.css";
+@import "layout/navigation.css";
+@import "layout/breadcrumbs.css";
+@import "layout/products.css";
+@import "layout/company.css";
+@import "layout/partners.css";
+@import "layout/reviews.css";
+@import "layout/pagination.css";
+@import "layout/form.css";
+@import "layout/footer.css";
+@import "layout/signature.css";
+@import "layout/social.css";
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+.wrapper{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: '';
+    display:table;
+    clear: both;
+}
+.nav {
+    width: 180px;
+    float: left;
+    margin-top: 17px;
+    font-family: "Gotham Pro",sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.main{
+    width: 880px;
+    float: right;
+    padding-top: 27px;
+   ;
+}
+.section{
+    display: table-row;
+    min-width: 1100px;
+    padding-bottom: 80px;
+}
+.test {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/jpg/intro.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}

@@ -1,0 +1,19 @@
+.footer{
+    display: table-row;
+    min-width: 1100px;
+    background: #27273e;
+    height: 1px;
+}
+.footer__column {
+    float: left;
+    width: 33.3%;
+    vertical-align: top;
+    margin-top:10px ;
+}
+
+.footer__logo{
+    display: block;
+    width: 99px;
+    height: 51px;
+    margin: 0 auto;
+}

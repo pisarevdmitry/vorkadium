@@ -1,0 +1,22 @@
+.breadcrumbs{
+    font-family: "Gotham Pro",sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+}
+.breadcrumbs__item{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumbs__item::after {
+    padding-left: 3px;
+    content: '/';
+}
+.breadcrumbs__item:last-child::after{
+    content: '';
+}
+.breadcrumbs__link {
+    color: #ec1e79;
+}

@@ -1,0 +1,39 @@
+.partners{
+    width: 700px;
+}
+.partners__header{
+    margin-top: 53px;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 49px;
+    text-transform: uppercase;
+}
+.partners-list{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 37px;
+    margin-bottom: 25px;
+}
+.partners__item{
+
+    width: 160px;
+    display: inline-block;
+    margin-right: 110px;
+    margin-bottom: 50px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    vertical-align: middle;
+    text-align: center;
+    transition: all 1s;
+}
+
+.partners__item:nth-child(3n){
+    margin-right: 0;
+    margin-left: -8px;
+}
+
+.partners__item:hover{
+    -webkit-filter: none;
+    filter: none;
+
+}

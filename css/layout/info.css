@@ -1,0 +1,23 @@
+.info {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+}
+
+.info__tel {
+    color: #ffffff;
+    font-size: 21px;
+    font-family: "Gotham Pro",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.info__shedule {
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #ec1e79;
+    text-decoration: underline;
+    }

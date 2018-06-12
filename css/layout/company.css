@@ -1,0 +1,73 @@
+.company-preview{
+    width: 879px;
+    height: 354px;
+    margin-top: -27px;
+    background:url("../../img/jpg/company.jpg");
+
+}
+.company-preview__image{
+    width: 100%;
+    height: 100%;
+}
+.company-preview__text{
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 49px;
+    color:#ffffff;
+    text-transform: uppercase;
+    padding-top: 149px;
+    padding-left: 63px;
+    margin: 0;
+}
+.company-avantages{
+    width: 690px;
+    font-family: "Gotham Pro";
+    font-weight: normal;
+    font-size:18px ;
+    line-height: 30px;
+ }
+.company-avantages__header{
+   margin: 0;
+}
+.company-services{
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+
+}
+.company-services__item{
+    list-style-type: none;
+    margin-top: 4px;
+    position: relative;
+    padding-left: 38px;
+    text-indent: -4px;
+
+}
+.company-services__item:before{
+    color:#ec1e79;
+    content: "\2022";
+    padding-right: 10px;
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translatex(20px);
+
+}
+.company-offer{
+    width: 700px;
+    background-color: #27273e;
+    box-sizing: border-box;
+    padding: 10px 25px;
+}
+.company-offer__text{
+    font-family: "Gotham Pro";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 0;
+}
+.company-offer__text_important{
+    font-weight: bold;
+    color: #ec1e79;
+}

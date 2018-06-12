@@ -1,0 +1,17 @@
+.signature {
+    width: 280px;
+    font-family: "Gotham Pro",sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.signature__link {
+    color:#ffffff;
+    font-weight: bold;
+}
+.signature__name{
+    font-weight: bold;
+}
